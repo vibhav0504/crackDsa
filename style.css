@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.subtle {
+  color: #aaa;
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.main-card--cointainer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 400px));
+  grid-gap: 50px;
+  /* justify-content: space-around; */
+  padding-left: 20px;
+}
+
+.card-container {
+  /* margin: 10px auto 0px 0px; */
+  position: relative; 
+   display: grid;
+  grid-template-columns: 1fr;
+  
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  /* position: relative;
+  box-shadow: 0 0 5px rgba(75, 75, 75, 0.07);
+  z-index: 1; */
+}
+
+
+
+.card-author {
+  display: inline-block;
+  font-size: 35px;
+  letter-spacing: 0.5px;
+  /* margin: 10px auto; */
+  text-align: center;
+  padding: 10px;
+  
+}
+.container {
+  font-size: 30px;
+  margin: 10px 10px;
+  padding: 5px 5px;
+  display: inline-block;
+  color: rgb(23, 69, 220);
+  width: 100vw;
+  height: 100px;
+  
+}
+.container1{
+  display: flex;
+  margin: 40px;
+  font-size: 40px;
+  color: black;
+  padding-left: 300px;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  position: absolute;
+  top:220px;
+  left: 250px;
+  width: 800px;
+  border-radius: 25px;
+  background: #f1f1f1;
+} 
+
